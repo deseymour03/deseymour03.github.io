@@ -1,0 +1,197 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Interative Map</title>
+    <!--Credited by: johnjonathonson -->
+    <!--Edited by: D.E. Seymour -->
+
+    <link rel="stylesheet" href="Mystyles.css">
+    <script src="interactive map.js" defer></script>
+
+
+  </head>
+
+  <header>
+
+      <div class="selection" id="maps">
+
+        <audio controls autoplay>
+          <source src="media/The God of risk.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+        </audio>
+    
+        <div class=button id="garrison">
+          garrison
+        </div>
+
+        <div class=button id="newalden">
+          newalden
+        </div>
+
+        <div class=button id="moshpit">
+            moshpit
+        </div>
+
+        <div class=button id="contra">
+            contra
+        </div>
+
+        <div class=button id="steedie">
+            steedie_mosh
+        </div>
+
+    </div>
+
+  </header>
+
+  <body>
+
+    <div id = "lines">
+    </div>
+
+    <div class="markers-red" id="markersred">
+
+      <div id="marker-red1" class="testing">
+        <img src="media/Cavalry orb Ally.png" width="50" height="50">
+      </div>
+
+      <div id="marker-red2" class="testing">
+        <img src="media/Cavalry orb Ally.png" width="50" height="50">
+      </div>
+
+      <div id="marker-red3" class="testing">
+        <img src="media/Cavalry orb Ally.png" width="50" height="50">
+      </div>
+
+      <div id="marker-red4" class="testing">
+        <img src="media/Cavalry orb Ally.png" width="50" height="50">
+      </div>
+
+      <div id="marker-red5" class="testing">
+        <img src="media/Cavalry orb Ally.png" width="50" height="50">
+      </div>
+
+      <div id="marker-red6" class="testing">
+        <img src="media/Infantry orb Ally.png" width="50" height="50">
+      </div>
+
+      <div id="marker-red7" class="testing">
+        <img src="media/Infantry orb Ally.png" width="50" height="50">
+      </div>
+
+      <div id="marker-red8" class="testing">
+        <img src="media/Infantry orb Ally.png" width="50" height="50">
+      </div>
+
+      <div id="marker-red9" class="testing">
+        <img src="media/Infantry orb Ally.png" width="50" height="50">
+      </div>
+
+      <div id="marker-red10" class="testing">
+        <img src="media/Infantry orb Ally.png" width="50" height="50">
+      </div>
+
+      <div id="marker-red11" class="testing">
+        <img src="media/Infantry orb Ally.png" width="50" height="50">
+      </div>
+
+      <div id="marker-red12" class="testing">
+        <img src="media/Ranged orb Ally.png" width="50" height="50">
+      </div>
+
+      <div id="marker-red13" class="testing">
+        <img src="media/Ranged orb Ally.png" width="50" height="50">
+      </div>
+
+      <div id="marker-red14" class="testing">
+        <img src="media/Ranged orb Ally.png" width="50" height="50">
+      </div>
+
+      <div id="marker-red15" class="testing">
+        <img src="media/Ranged orb Ally.png" width="50" height="50">
+      </div>
+
+      <div id="marker-red16" class="testing">
+        <img src="media/Ranged orb Ally.png" width="50" height="50">
+      </div>
+
+
+    </div>
+
+    <div class="markers-blue" id="markersblue">
+
+      <div id="marker-blue1" class="testing">
+        <img src="media/Cavalry orb Enemy.png" width="50" height="50">
+      </div>
+
+      <div id="marker-blue2" class="testing">
+        <img src="media/Cavalry orb Enemy.png" width="50" height="50">
+      </div>
+
+      <div id="marker-blue3" class="testing">
+        <img src="media/Cavalry orb Enemy.png" width="50" height="50">
+      </div>
+
+      <div id="marker-blue4" class="testing">
+        <img src="media/Cavalry orb Enemy.png" width="50" height="50">
+      </div>
+
+      <div id="marker-blue5" class="testing">
+        <img src="media/Cavalry orb Enemy.png" width="50" height="50">
+      </div>
+
+      <div id="marker-blue6" class="testing">
+        <img src="media/Infantry orb Enemy.png" width="50" height="50">
+      </div>
+
+      <div id="marker-blue7" class="testing">
+        <img src="media/Infantry orb Enemy.png" width="50" height="50">
+      </div>
+
+      <div id="marker-blue8" class="testing">
+        <img src="media/Infantry orb Enemy.png" width="50" height="50">
+      </div>
+
+      <div id="marker-blue9" class="testing">
+        <img src="media/Infantry orb Enemy.png" width="50" height="50">
+      </div>
+
+      <div id="marker-blue10" class="testing">
+        <img src="media/Infantry orb Enemy.png" width="50" height="50">
+      </div>
+
+      <div id="marker-blue11" class="testing">
+        <img src="media/Infantry orb Enemy.png" width="50" height="50">
+      </div>
+
+      <div id="marker-blue12" class="testing">
+        <img src="media/Ranged orb Enemy.png" width="50" height="50">
+      </div>
+
+      <div id="marker-blue13" class="testing">
+        <img src="media/Ranged orb Enemy.png" width="50" height="50">
+      </div>
+
+      <div id="marker-blue14" class="testing">
+        <img src="media/Ranged orb Enemy.png" width="50" height="50">
+      </div>
+
+      <div id="marker-blue15" class="testing">
+        <img src="media/Ranged orb Enemy.png" width="50" height="50">
+      </div>
+
+      <div id="marker-blue16" class="testing">
+        <img src="media/Ranged orb Enemy.png" width="50" height="50">
+      </div>
+
+
+    </div>
+    <div id="map_id" class="map">
+
+
+      <img src="garrison.jpg">
+
+      </div>
+
+    </body>
+  </html>

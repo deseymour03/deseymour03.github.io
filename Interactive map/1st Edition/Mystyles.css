@@ -1,0 +1,254 @@
+#marker-red1 {
+    position: absolute;
+    width: 50px;
+    top: 0px;
+    left: 0px;
+  }
+
+  #marker-red2 {
+    position: absolute;
+    width: 50px;
+    top: 0px;
+    left: 0px;
+  }
+
+  #marker-red3 {
+    position: absolute;
+    width: 50px;
+    top: 0px;
+    left: 0px;
+  }
+
+  #marker-red4 {
+    position: absolute;
+    width: 50px;
+    top: 0px;
+    left: 0px;
+  }
+
+  #marker-red5 {
+    position: absolute;
+    width: 50px;
+    top: 0px;
+    left: 0px;
+  }
+
+  #marker-red6 {
+    position: absolute;
+    width: 50px;
+    top: 60px;
+    left: 0px;
+  }
+
+  #marker-red7 {
+    position: absolute;
+    width: 50px;
+    top: 60px;
+    left: 0px;
+  }
+
+  #marker-red8 {
+    position: absolute;
+    width: 50px;
+    top: 60px;
+    left: 0px;
+  }
+
+  #marker-red9 {
+    position: absolute;
+    width: 50px;
+    top: 60px;
+    left: 0px;
+  }
+
+  #marker-red10 {
+    position: absolute;
+    width: 50px;
+    top: 60px;
+    left: 0px;
+  }
+
+  #marker-red11 {
+    position: absolute;
+    width: 50px;
+    top: 60px;
+    left: 0px;
+  }
+
+  #marker-red12 {
+    position: absolute;
+    width: 50px;
+    top: 120px;
+    left: 0px;
+  }
+
+  #marker-red13 {
+    position: absolute;
+    width: 50px;
+    top: 120px;
+    left: 0px;
+  }
+
+  #marker-red14 {
+    position: absolute;
+    width: 50px;
+    top: 120px;
+    left: 0px;
+  }
+
+  #marker-red15 {
+    position: absolute;
+    width: 50px;
+    top: 120px;
+    left: 0px;
+  }
+
+  #marker-red16 {
+    position: absolute;
+    width: 50px;
+    top: 120px;
+    left: 0px;
+  }
+
+  #marker-blue1 {
+    position: absolute;
+    width: 50px;
+    top: 0px;
+    left: 0px;
+  }
+
+  #marker-blue2 {
+    position: absolute;
+    width: 50px;
+    top: 0px;
+    left: 0px;
+  }
+
+  #marker-blue3 {
+    position: absolute;
+    width: 50px;
+    top: 0px;
+    left: 0px;
+  }
+
+  #marker-blue4 {
+    position: absolute;
+    width: 50px;
+    top: 0px;
+    left: 0px;
+  }
+
+  #marker-blue5 {
+    position: absolute;
+    width: 50px;
+    top: 0px;
+    left: 0px;
+  }
+
+  #marker-blue6 {
+    position: absolute;
+    width: 50px;
+    top: 60px;
+    left: 0px;
+  }
+
+  #marker-blue7 {
+    position: absolute;
+    width: 50px;
+    top: 60px;
+    left: 0px;
+  }
+
+  #marker-blue8 {
+    position: absolute;
+    width: 50px;
+    top: 60px;
+    left: 0px;
+  }
+
+  #marker-blue9 {
+    position: absolute;
+    width: 50px;
+    top: 60px;
+    left: 0px;
+  }
+
+  #marker-blue10 {
+    position: absolute;
+    width: 50px;
+    top: 60px;
+    left: 0px;
+  }
+
+  #marker-blue11 {
+    position: absolute;
+    width: 50px;
+    top: 60px;
+    left: 0px;
+  }
+
+  #marker-blue12 {
+    position: absolute;
+    width: 50px;
+    top: 120px;
+    left: 0px;
+  }
+
+  #marker-blue13 {
+    position: absolute;
+    width: 50px;
+    top: 120px;
+    left: 0px;
+  }
+
+  #marker-blue14 {
+    position: absolute;
+    width: 50px;
+    top: 120px;
+    left: 0px;
+  }
+
+  #marker-blue15 {
+    position: absolute;
+    width: 50px;
+    top: 120px;
+    left: 0px;
+  }
+
+  #marker-blue16 {
+    position: absolute;
+    width: 50px;
+    top: 120px;
+    left: 0px;
+  }
+
+  #map {
+
+    position: absolute;
+
+  }
+
+  #markersblue {
+    position: absolute;
+    top: 725px;
+    left: 2000px;
+
+  }
+
+  #markersred {
+    position: absolute;
+    top: 725px;
+    left: 475px;
+
+  }
+
+
+
+  .selection {
+    background-color: white;
+    padding: 5px;
+
+    font-size: 30px;
+    position: fixed;
+
+  }
